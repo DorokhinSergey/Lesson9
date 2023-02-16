@@ -1,0 +1,400 @@
+/* &display=swap&subset=cyrillic-ext (вставить в плагин) для удаленного подключения*/
+/*
+font-weight:
+Устанавливает насыщенность шрифта.
+100 - thin
+300 - lite
+400 - normal
+500 - medium
+600 - semibold
+700 - bold
+900 - black
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700&display=swap&subset=cyrillic-ext");
+
+
+
+@font-face {
+  font-family: 'HelveticaNeue LT 55 Roman';
+  src: url(../fonts/HelveticaNeueLT-Roman.woff2) format('woff2'),
+      url(../fonts/HelveticaNeueLT-Roman.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue LT 55 Roman';
+  src: url(../fonts/HelveticaNeueLT-Roman.woff2) format('woff2'),
+      url(../fonts/HelveticaNeueLT-Roman.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html {
+  font-size: 16px; /* по умолчанию */
+}
+body {
+  font-family: "Poppins"; 
+  line-height: 1;
+  
+  
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+  background-color: #f5f5f5;
+  
+}
+
+.conteiner1{
+  max-width: 1020px;
+margin: auto;
+padding: 110px 0px 113px 0px;
+background: url(../img/Blob.svg) 25% -25% / 1900px 800px  no-repeat ;
+}
+
+.text1{
+  font-weight: 700;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #5D62B5;
+    padding-left: 36px;
+    margin-bottom: 33px;
+}
+
+
+.text1::before{
+  content: "";
+  background: url(../img/log.png) 0 0  no-repeat;
+  display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0px 16px -2px -36px;
+}
+
+.text2{
+  font-weight: 900;
+    font-size: 36px;
+    line-height: 117%;
+    color: #000;
+    margin-bottom: 78px;
+}
+
+
+.conteiner2{
+  margin-bottom: 66px;
+}
+
+.korob{
+  display: inline-block;
+  max-width: 324px;
+  text-align: center;
+  padding: 44px 37px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 0px 24px 24px 0px;
+}
+
+.korob *:not(:last-child) {
+  margin: 0px 0px 24px 0px;
+}
+
+.title{
+font-weight: 900;
+font-size: 19px;
+line-height: 137%;
+color: #F2726F;
+}
+
+
+.info{font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: #4B4B4B;
+  max-width: 237px;
+}
+
+.korob:hover {
+  box-shadow: 8px 16px 24px #2626263d;
+  }
+
+
+  .knopka{
+    max-width: 140px;
+    text-align: center;
+    margin: auto;
+    
+  }
+
+  .Learn{
+color: #FFF;
+font-size: 12px;
+text-transform: uppercase;
+display: inline-block;
+background-color: #F2726F;
+font-weight: 700;
+border-radius: 8px;
+    padding: 12px 24px;
+    line-height: 2;
+    letter-spacing: 0.15px;
+    
+  }
+
+
+  .Learn2{
+    color: #FFF;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #F2726F;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 12px 24px;
+    line-height: 2;
+    letter-spacing: 0.15px;
+    opacity: 0;
+    visibility: hidden;
+    margin-left: -100px;
+  }
+
+
+  .knopka:hover .Learn {
+    opacity: 0;
+    visibility: hidden;
+    }
+
+.knopka:hover .Learn2 {
+    opacity: 1;
+    visibility: visible;
+    }
+  
+
+    .conteiner3{
+      max-width: 1020px;
+    margin: auto;
+    padding: 84px 0px 125px 0px;
+    
+    }
+    
+    .text_1{
+      font-weight: 700;
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        color: #5D62B5;
+        padding-left: 36px;
+        margin-bottom: 33px;
+    }
+    
+    
+    .text_1::before{
+      content: "";
+      background: url(../img/log.png) 90% -20% / 600px 600px  no-repeat;
+      display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin: 0px 16px -2px -36px;
+    }
+    
+    .text_2{
+      font-weight: 900;
+        font-size: 36px;
+        line-height: 117%;
+        color: #000;
+        margin-bottom: 78px;
+    }
+
+
+.contglav{
+  background-color: #F5F5F5;
+}
+
+
+
+.glavacont{
+  display: inline-block;	
+max-width: 320px;
+}
+
+.glavacont:not(:last-child) {
+  margin-right: 24px;
+}
+.glava2{
+  max-width: 1020px;
+    margin: auto;
+    padding: 84px 0px 125px 0px;
+}
+
+.glavaimg {
+  display: inline-block;
+  width: 55px;
+  vertical-align: top;
+  margin-right: 23px;
+  }
+
+  .podcont{
+    display: inline-block;
+    max-width: 258px;
+    vertical-align: top;
+}
+.podconttitle{
+  font-weight: 900;
+    font-size: 19px;
+    line-height: 1.37;
+    color: #F2726F;
+    margin-bottom: 20px;
+}
+
+.podconttext{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+  color: #4B4B4B;
+}
+
+
+
+.glava3{
+  background: #29C3BE url(../img/Blob2.svg) 0 0 no-repeat;
+
+}
+
+
+.glava3cont{
+  max-width: 1020px;
+    margin: auto;
+    padding: 112px 0px 212px 0px;
+}
+
+.glava3_1{
+  display: inline-block;
+  
+}
+
+
+.glava3title{
+  color: #FFF;
+  font-weight: 700;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding-left: 36px;
+    margin-bottom: 32px;
+}
+
+.glava3title::before{
+content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    background: url(../img/iconn.svg) 0 0 no-repeat;
+    margin: 0px 16px 0px -36px;}
+
+    .glava3ttext{
+      color: #FFF;
+      max-width: 483px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 117%;
+    
+    }
+
+
+    .dog{
+      text-align: right;
+      margin: -200px -20px -12px 0px;
+      
+    }
+
+    .imgdog{
+      border-radius: 30px;
+    }
+    
+
+
+    .box4{
+    
+      vertical-align: top;
+    }
+    
+    .titlefo{color: #FFF;
+      font-size: 36px;
+      font-weight: 900;
+      margin: 0px 0px 3px 0px;
+      line-height: 100%;
+    
+    }
+    .textfo{
+      color: #5D62B5;
+      font-size: 16px;
+      line-height: 128%;
+      letter-spacing: 0.15px;
+    max-width: 149px;
+    }
+
+
+    
+
+  .contfo{
+    display: inline-block;
+    max-width: 313px;
+  }
+
+  .imgbl4{
+    display: inline-block;
+    width: 76px;
+    margin-right: 11px;
+  }
+
+  .conttext{
+    display: inline-block;
+    width: 143px;
+  }
+
+
+  .contfo:not(:last-child) {
+    margin-right: 22px;}
+
+    .glava3_1{
+      margin: -115px 0px 80px 0px;
+    }
